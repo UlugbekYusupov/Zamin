@@ -1,0 +1,42 @@
+.header {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(54, 37, 134);
+  .logo {
+    color: white;
+    margin-top: 50px;
+  }
+  .input-icons {
+    width: 90%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    .icon {
+      padding: 10px;
+      padding-left: 20px;
+    }
+    i {
+      position: absolute;
+      color: rgb(54, 37, 134);
+    }
+    .input-field {
+      border-radius: 7px;
+      border: none;
+      width: 100%;
+      padding-left: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      font-size: 16px;
+      text-align: center;
+    }
+    .input-field:focus::placeholder {
+      color: transparent;
+      border: none;
+    }
+  }
+}
